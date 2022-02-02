@@ -1,0 +1,233 @@
+body{
+   background-image:url('../../../photos/stoleshnica3.jpg');
+   /* background-size: cover;
+   /* background-repeat: no-repeat; */
+} 
+
+.page_block{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-gap: 2vw;
+   text-align: center;
+   padding: 1vw 8vw;
+   margin-top:5%;
+}
+
+#info{
+   text-align: center;
+   font-size: 2vw;
+   color: #876869;
+}
+
+.login_block div{
+  height: 4vw;
+  font-size: 2vw;
+  text-align: center;
+}
+
+
+.log  input{
+   height: 2.5vw;
+   width: 15vw;
+   border-radius: 10px;
+   font-size: 1.5vw;
+   background-color: #d1b89d;
+   
+}
+
+.in > button{
+  height: 3vw;
+  width: 10vw;
+  background-color: bisque;
+  color: blue;
+  font-size: 2vw;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.img_block_1> div{
+   width: 26vw;
+   height:26vw;
+
+}
+.imim{
+   transition: 1s;
+   font-size: 0.7vw;
+   
+}
+.imim:hover{
+   cursor: pointer;
+   position: absolute;
+   background-color: rgb(20, 29, 29);
+   color: rgb(245, 243, 237);
+   transform: scale(1.3);
+   z-index: 1;
+   font-size: 0.8vw;
+  }
+
+.img_block_1 >div>img{
+  height: 75%;
+  width:80%;
+}
+
+.brend{
+   font-size: 4vw;
+   text-align: center;
+   font-style: italic;
+   
+}
+
+.chuz_params{
+   text-align: center;
+}
+
+.tesakani_change{
+   height: 20%;
+   width: 90%;
+}
+a{
+   text-decoration: none;
+   color: #998263;
+}
+.chuz_by, .from_to{
+   height: 1.5vw;
+   width: 6vw;
+   border-radius: 10px;
+   text-align: center;
+   background-color: #746857;
+   color: beige;
+   font-size: 1vw;
+}
+.from1, .to1{
+   height: 1.5vw;
+   width: 10vw;
+   border-radius: 10px;
+   text-align: center;
+   background-color: #746857;
+   color: rgb(231, 245, 220);
+   font-size: 1vw;
+}
+.from_to1, .buy, .save{
+   height: 1.5vw;
+   width: 7vw;
+   border-radius: 10px;
+   text-align: center;
+   background-color: #100f0a;
+   color: rgb(61, 236, 17);
+   font-size: 1vw;
+   cursor: pointer;
+}
+.cost, .change_result{
+   height: 5vw;
+   width: 12vw;
+   background-image:url('../../../photos/stoleshnica1.jpg');
+   position: fixed;
+   left: 87%;
+   top:2%;
+   z-index: 100;
+   display: none;
+   }
+.cost_picca, .change_result{
+   color:#1bff00;
+   text-align: center;
+   font-size: 3vw;
+}
+.dell{
+   color: #ede8e8;
+   margin-left: 70%;
+   cursor: pointer;
+}
+
+@media only screen  and (max-width:768px){
+   .chuz_params{
+     text-align: center;
+   }
+    .page_block{
+      display: grid;
+      grid-template-columns: 1fr;
+      text-align: center;
+      padding: 5%  25%;
+     
+   }
+   .tesakani{
+      font-size: 1.5vw;
+   }
+   .img_block_1> div{
+      width: 50vw;
+      height:40vw;
+      position: relative;
+   
+   }
+   .imim{
+      transition: 2s;
+      font-size: 0.7vw;
+      
+   }
+   .img_block_1 >div>img{
+      height: 75%;
+      width:80%;
+   }
+   .imim:hover{
+      cursor: pointer;
+      position: relative;
+      background-color: rgb(20, 29, 29);
+      color: rgb(245, 243, 237);
+      transform: scale(1.3);
+      z-index: 1;
+      font-size: 0.8vw;
+   }
+   .cost{
+      height: 8vw;
+      width: 16vw;
+      background-image:url('../../../photos/stoleshnica1.jpg');
+      position: fixed;
+      left: 82%;
+      top:2%;
+      z-index: 100;
+      display: none;
+   }
+   .cost_picca{
+         color:#1bff00;
+         text-align: center;
+         font-size: 4vw;
+   }
+   .dell{
+         color: #ede8e8;
+         margin-left: 50%;
+         cursor: pointer;
+         font-size: 2vw;
+   }
+   .chuz_by, .from_to{
+         height: 6vw;
+         width: 15vw;
+         border-radius: 10px;
+         text-align: center;
+         background-color: #746857;
+         color: beige;
+         font-size: 4vw;
+   }
+   .from1, .to1{
+         height: 5vw;
+         width: 10vw;
+         border-radius: 10px;
+         text-align: center;
+         background-color: #746857;
+         color: rgb(231, 245, 220);
+         font-size: 3vw;
+   }
+   .from_to1{
+      height: 6vw;
+      width: 29vw;
+      font-size: 4vw;
+   }
+   .buy{
+      height: 4vw;
+      width: 12vw;
+      font-size:2.5vw;
+   }
+   .img_block_1{
+      margin-top: 3%;
+   }
+ }
+
+
